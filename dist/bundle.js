@@ -1,0 +1,1 @@
+(()=>{"use strict";function e(e){return React.createElement("div",{Class:"carousel-container"},React.createElement("div",{class:"carousel"}))}const t=document.getElementById("app");ReactDOM.createRoot(t).render(React.createElement(e,null))})();
