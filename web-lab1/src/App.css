@@ -2,49 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
     text-align: center;
-}
-
-header {
+  }
+  
+  header {
     background-color: #4CAF50;
     padding: 20px;
     color: white;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 2.5em;
-}
-
-.carousel-container {
+  }
+  
+  .carousel-container {
     position: relative;
     max-width: 80%;
     margin: 30px auto;
     overflow: hidden;
-}
-
-.carousel {
+  }
+  
+  .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
+  }
+  
+  .carousel-item {
     min-width: 100%;
     text-align: center;
-}
-
-.carousel-item img {
+  }
+  
+  .carousel-item img {
     width: 300px;
     height: 300px;
     object-fit: cover;
-}
-
-.prev-btn, .next-btn {
+  }
+  
+  .prev-btn, .next-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -54,23 +54,23 @@ h1 {
     padding: 10px;
     cursor: pointer;
     font-size: 32px;
-}
-
-.prev-btn {
+  }
+  
+  .prev-btn {
     left: 10px;
-}
-
-.next-btn {
+  }
+  
+  .next-btn {
     right: 10px;
-}
-
-.prev-btn:hover, .next-btn:hover {
+  }
+  
+  .prev-btn:hover, .next-btn:hover {
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-footer {
+  }
+  
+  footer {
     margin-top: 50px;
     padding: 10px;
     background-color: #333;
     color: white;
-}
+  }
